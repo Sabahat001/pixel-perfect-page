@@ -124,9 +124,9 @@ function App() {
               />
               <div class="customer-content">
                 <div class="customer-tags">
-                  <h3>Zendesk keeps 200 engineers <br />focused, productive and safe</h3>
+                  <h3>Zendesk keeps 200 engineers focused, productive and safe</h3>
                 </div>
-                <p class="customer-title">Nearly 200 software engineers across <br /> AMER, EMEA and APAC regions use <br /> ngrok every day. New engineers up and <br />running in less than 15 minutes.</p>
+                <p class="customer-title">Nearly 200 software engineers across AMER, EMEA and APAC regions use ngrok every day. New engineers up and running in less than 15 minutes.</p>
               </div>
               <div class="all-content">
                 <a href="#" class="link">Read more &rarr;</a>
