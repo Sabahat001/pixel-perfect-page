@@ -1,8 +1,9 @@
 import "./App.css";
+import "./MediaQuries.css"
 function App() {
   return (
     <>
-      <div className="container">
+     
         <nav className="header">
           <div className="logo">
             <a href="#"><img src="img/ngrok.png" alt="" /></a>
@@ -169,7 +170,7 @@ function App() {
 
           </div>
 
-          <div class="container">
+          <div class="container features">
             <div class="logos">
               <img src="img/twilio-logo.png" alt="" />
               <img src="img/SendGrid.png" alt="" />
@@ -244,7 +245,7 @@ function App() {
               <img src="img/okta.png" alt="" className="cat-img" />
             </div>
             <div className="category">
-              <img src="img/shopify.png" alt="" className="cat-img shopify" />
+              <img src="img/zoom.png" alt="" className="cat-img shopify" />
             </div>
 
 
@@ -334,7 +335,7 @@ function App() {
 
 
 
-      </div>
+    
 
     </>
   );
