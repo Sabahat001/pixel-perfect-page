@@ -31,7 +31,7 @@ function App() {
             </div>
             <div class="hero-img-box">
               <img
-                src="/img/hero-img.png"
+                src="/img/front-img.webp"
                 class="hero-img"
                 alt="circle of people images" />
             </div>
@@ -40,7 +40,7 @@ function App() {
 
         <section className="how-it-works">
           <div className="container">
-            <span class="subheading">Developers</span>
+            <h3 class="subheading">Developers</h3>
             <h2 class="heading-secondary">
               Trusted by over 5 million developers
             </h2>
@@ -110,11 +110,11 @@ function App() {
 
         <section className="section-customers">
           <div class="container">
-            <span class="subheading">Customers</span>
+            <h3 class="subheading">Customers</h3>
             <h2 class="heading-secondary">
               Trusted by the best teams
             </h2>
-            <p className="customer-heading">Companies trust in ngrok to increase their developer productivity, secure <br /> remote access, enable B2B communications, and enable remote IoT access.</p>
+            <p className="user-para">Companies trust in ngrok to increase their developer productivity, secure <br /> remote access, enable B2B communications, and enable remote IoT access.</p>
           </div>
           <div className="container grid grid--3-cols ">
             <div className="customer">
@@ -186,23 +186,25 @@ function App() {
 
         <section className="container section-category">
           <div class="container">
-            <span class="subheading">CATEGORY LEADERS</span>
+            <h3 class="subheading">CATEGORY LEADERS</h3>
             <h2 class="heading-secondary">
               Recommended by category leaders
             </h2>
-            <p className="customer-heading">ngrok is recommended by many developer platforms and category leaders <br /> for systems and webhook development:</p>
+            <p className="user-para">ngrok is recommended by many developer platforms and category leaders <br /> for systems and webhook development:</p>
           </div>
-          <div className="container categoies">
+          <div className="container categories">
             <div className="category">
               <img src="img/twilio-logo.png" alt="" className="cat-img" />
             </div>
 
             <div className="category">
-              <img src="img/SendGrid.png" alt="" className="cat-img" />
+              <div className="category-img">
+              <img src="img/zoom.png" alt="" className="cat-img" />
+              </div>
             </div>
 
             <div className="category">
-              <img src="img/SendGrid.png" alt="" className="cat-img" />
+              <img src="img/twilio-logo.png" alt="" className="cat-img" />
             </div>
 
             <div className="category">
@@ -247,9 +249,6 @@ function App() {
             <div className="category">
               <img src="img/zoom.png" alt="" className="cat-img shopify" />
             </div>
-
-
-
           </div>
         </section>
 
@@ -267,7 +266,7 @@ function App() {
 
         <footer class="footer">
       <div class="container grid grid--footer">
-        <nav class="nav-col">
+        <nav class="nav-col navigation">
           <p class="footer-heading">Products</p>
           <p class="footer-heading">Pricing</p>
           <p class="footer-heading">Docs</p>
@@ -278,16 +277,16 @@ function App() {
           <p class="footer-heading">Service Status</p>
         </nav>
 
-        <nav class="nav-col">
+        <nav class="nav-col middle-grid">
           <h3 class="footer-heading">Online in One Line</h3>
         </nav>
 
-        <div class="logo-col">
-        <p class="footer-heading">Abuse</p>
-          <p class="footer-heading">DPA</p>
-          <p class="footer-heading">Privacy</p>
-          <p class="footer-heading">Security</p>
-          <p class="footer-heading">Terms & Services</p>
+        <div class="logo-col last-grid">
+        <p class="footer-heading faded">Abuse</p>
+          <p class="footer-heading faded">DPA</p>
+          <p class="footer-heading faded">Privacy</p>
+          <p class="footer-heading faded">Security</p>
+          <p class="footer-heading faded">Terms & Services</p>
          
 
           <ul class="social-links">
@@ -312,7 +311,9 @@ function App() {
             <img class="logo" alt="ngrok logo" src="img/ngrok.png" />
           </a>
         </div>
+
       </div>
+      <div className="copyright">&copy; ngrok 2022</div>
     </footer>
 
 
