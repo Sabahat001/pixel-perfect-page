@@ -194,7 +194,7 @@ function App() {
           </div>
           <div className="container categories">
             <div className="category">
-              <img src="img/twilio-logo.png" alt="" className="cat-img" />
+              <img src="img/SendGrid.png" alt="" className="cat-img" />
             </div>
 
             <div className="category">
@@ -244,10 +244,10 @@ function App() {
               <img src="img/microsoft.jpg" alt="" className="cat-img" />
             </div>
             <div className="category">
-              <img src="img/okta.png" alt="" className="cat-img" />
+              <img src="img/Shopify.png" alt="" className="cat-img shopify" />
             </div>
             <div className="category">
-              <img src="img/zoom.png" alt="" className="cat-img shopify" />
+              <img src="img/zoom.png" alt="" className="cat-img " />
             </div>
           </div>
         </section>
