@@ -36,8 +36,24 @@
     transform: rotate(360deg);
   }
 }
+@font-face {
+  font-family: 'MyCustomFont';
+  src: url('./fonts/EuclidSquare-Regular.ttf') format('ttf'),
+       url('./fonts/EuclidSquare-LightItalic.ttf') format('ttf'),
+       url('./fonts/EuclidSquare-Bold.ttf') format('ttf'),
+       url('./fonts/EuclidSquare-SemiBold.ttf') format('ttf');
+
+  /* font-weight: normal;
+  font-style: normal; */
+}
+h1, h2, h3{
+  font-family: "MyCustomFont", Euclid-Bold;
+}
+p, span{
+  font-family: "MyCustomFont", Euclid-SemiBold;
+}
 * {
-  font-family: euclid square;
+  /* font-family: "MyCustomFont"; */
   padding: 0;
   margin: 0;
   box-sizing: border-box;
@@ -109,6 +125,7 @@
   align-items: center;
 }
 .heading-primary{
+  font-family: "MyCustomFont", EuclidSquare-SemiBold;
   margin-top: 6rem;
   font-size: 3.5rem;
   font-weight: 700;
@@ -130,6 +147,7 @@ strong{
  font-style: bold;
 } */
 .hero-description {
+  font-family: "MyCustomFont", EuclidSquare-bold;
   font-size: 1.25rem;
   line-height: 28px;
   margin-bottom: 5rem;
