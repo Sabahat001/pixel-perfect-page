@@ -6,7 +6,7 @@ function App() {
      
         <nav className="header">
           <div className="logo">
-            <a href="#"><img src="img/ngrok.png" alt="" /></a>
+            <a href="#"><img className="header-img" src="img/ngrok.svg" alt="" /></a>
           </div>
           <div className="btn">
             <button className="login">login</button>
@@ -17,6 +17,7 @@ function App() {
         <section className="hero-section">
           <div class="hero">
             <div class="hero-text-box">
+            <div className="hero-data">
               <h1 class="heading-primary">
                 Trusted by <br />
                 <span>over 5 million <br />developers</span>
@@ -25,9 +26,15 @@ function App() {
                 Trusted by the <strong>best teams.</strong> <br />
                 Recommended by <strong>category leaders.</strong>
               </p>
+                <div className="head-btn">
               <a href="#" class="btn-hero btn--full margin-right-sm"
               >Try ngrok for free</a >
-              <a href="#" class="btn-hero btn--outline">Get in touch <strong className="arrow">&rarr;</strong></a>
+              <div className="get-in-touch">
+              <a href="#" class="btn-hero btn--outline">Get in touch</a>
+            <img className="arrow-img" src="./img/Arrow forward.svg" alt="" />
+            </div>
+              </div>
+              </div>
             </div>
             <div class="hero-img-box">
               <img
@@ -39,7 +46,7 @@ function App() {
         </section>
 
         <section className="how-it-works">
-          <div className="container">
+          <div className="container ">
             <h3 class="subheading">Developers</h3>
             <h2 class="heading-secondary">
               Trusted by over 5 million developers
@@ -116,54 +123,60 @@ function App() {
             </h2>
             <p className="user-para">Companies trust in ngrok to increase their developer productivity, secure <br /> remote access, enable B2B communications, and enable remote IoT access.</p>
           </div>
-          <div className="container grid grid--3-cols ">
+          <div className="customer-grid">
             <div className="customer">
+              <div className="image-container">
               <img
                 src="img/img3.jpg"
                 class="customer-img"
                 alt="Avocado Salad"
               />
+              </div>
               <div class="customer-content">
                 <div class="customer-tags">
                   <h3>Zendesk keeps 200 engineers focused, productive and safe</h3>
                 </div>
-                <p class="customer-title">Nearly 200 software engineers across AMER, EMEA and APAC regions use ngrok every day. New engineers up and running in less than 15 minutes.</p>
+                <p class="customer-title para-1">Nearly 200 software engineers across AMER, EMEA and APAC regions use ngrok every day. New engineers up and running in less than 15 minutes.</p>
               </div>
-              <div class="all-content">
+              <div class="all-content customer-link-1">
                 <a href="#" class="link">Read more &rarr;</a>
               </div>
             </div>
 
             <div className="customer">
+              <div className="image-container">
               <img
                 src="img/img1.jpg"
                 class="customer-img"
                 alt="Avocado Salad"
               />
+              </div>
               <div class="customer-content">
                 <div class="customer-tags">
                   <h3>Copado extends the reach of their CI/CD platform without VPN friction</h3>
                 </div>
-                <p class="customer-title">With ngrok, Copado save weeks setting up new connections per customer, plus countless hours troubleshooting bad connectivity.</p>
+                <p class="customer-title para-2">With ngrok, Copado save weeks setting up new connections per customer, plus countless hours troubleshooting bad connectivity.</p>
               </div>
-              <div class=" all-content">
+              <div class=" all-content customer-link-2">
                 <a href="#" class="link">Read more &rarr;</a>
               </div>
             </div>
 
             <div className="customer">
+              <div className="image-container">
               <img
                 src="img/img2.jpg"
                 class="customer-img"
                 alt="Avocado Salad"
               />
+              </div>
               <div class="customer-content">
                 <div class="customer-tags">
                   <h3>HENNGE extends Zero Trust access to on-prem systems�with ngrok</h3>
                 </div>
-                <p class="customer-title">HENNGE adds SSO and MFA to on-prem apps such as Oracle, IBM, and SAP with the best time to value.</p>
+                <p class="customer-title para-3">HENNGE adds SSO and MFA to on-prem apps such as Oracle, IBM, and SAP with the best time to value.</p>
               </div>
-              <div class=" all-content">
+              <div class=" all-content customer-link-3">
                 <a href="#" class="link">Read more &rarr;</a>
               </div>
             </div>
