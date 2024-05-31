@@ -1,5 +1,6 @@
 import "./App.css";
 import "./MediaQuries.css"
+// import "./LogoSlider"
 function App() {
   return (
     <>
@@ -138,8 +139,9 @@ function App() {
                 </div>
                 <p class="customer-title para-1">Nearly 200 software engineers across AMER, EMEA and APAC regions use ngrok every day. New engineers up and running in less than 15 minutes.</p>
               </div>
-              <div class="all-content customer-link-1">
-                <a href="#" class="link">Read more &rarr;</a>
+              <div class=" all-content customer-link-3">
+                <a href="#" class="link">Read more</a>
+                <img className="arrow-img" src="./img/Arrow forward.svg" alt="" />
               </div>
             </div>
 
@@ -157,8 +159,9 @@ function App() {
                 </div>
                 <p class="customer-title para-2">With ngrok, Copado save weeks setting up new connections per customer, plus countless hours troubleshooting bad connectivity.</p>
               </div>
-              <div class=" all-content customer-link-2">
-                <a href="#" class="link">Read more &rarr;</a>
+              <div class=" all-content customer-link-3">
+                <a href="#" class="link">Read more</a>
+                <img className="arrow-img" src="./img/Arrow forward.svg" alt="" />
               </div>
             </div>
 
@@ -177,28 +180,29 @@ function App() {
                 <p class="customer-title para-3">HENNGE adds SSO and MFA to on-prem apps such as Oracle, IBM, and SAP with the best time to value.</p>
               </div>
               <div class=" all-content customer-link-3">
-                <a href="#" class="link">Read more &rarr;</a>
+                <a href="#" class="link">Read more</a>
+                <img className="arrow-img" src="./img/Arrow forward.svg" alt="" />
               </div>
             </div>
 
           </div>
 
-          <div class="container features">
+          <div class=" features">
             <div class="logos">
-              <img src="img/twilio-logo.png" alt="" />
-              <img src="img/SendGrid.png" alt="" />
-              <img src="img/github.png" alt="" />
-              <img src="img/okta.png" alt="" />
-              <img src="img/slack.jpg" alt="" />
-              <img src="img/microsoft.jpg" alt="" />
-              <img src="img/zoom.png" alt="" />
+              <img className="twilio"src="img/twilio.svg" alt="" />
+              <img src="img/SendGrid.svg" alt="" />
+              <img src="img/git2.svg" alt="" />
+              <img src="img/okta.svg" alt="" />
+              <img src="img/slack.svg" alt="" />
+              <img src="img/ms.svg" alt="" />
+              <img className="zoom" src="img/zoom.svg" alt="" />
             </div>
           </div>
         </section>
 
 
-        <section className="container section-category">
-          <div class="container">
+        <section className="section-category">
+          <div class=" category-sec">
             <h3 class="subheading">CATEGORY LEADERS</h3>
             <h2 class="heading-secondary">
               Recommended by category leaders
@@ -207,60 +211,60 @@ function App() {
           </div>
           <div className="container categories">
             <div className="category">
-              <img src="img/SendGrid.png" alt="" className="cat-img" />
+              <img src="img/sendgrid.svg" alt="" className="cat-img" />
             </div>
 
             <div className="category">
               <div className="category-img">
-              <img src="img/zoom.png" alt="" className="cat-img" />
+              <img src="img/zoom.svg" alt="" className="cat-img" />
               </div>
             </div>
 
             <div className="category">
-              <img src="img/twilio-logo.png" alt="" className="cat-img" />
+              <img src="img/twilio.svg" alt="" className="cat-img" />
             </div>
 
             <div className="category">
-              <img src="img/github.png" alt="" className="cat-img" />
+              <img src="img/git2.svg" alt="" className="cat-img" />
             </div>
 
             <div className="category">
-              <img src="img/okta.png" alt="" className="cat-img" />
+              <img src="img/okta.svg" alt="" className="cat-img" />
             </div>
 
             <div className="category">
-              <img src="img/zoom.png" alt="" className="cat-img" />
+              <img src="img/zoom.svg" alt="" className="cat-img" />
             </div>
             <div className="category">
-              <img src="img/slack.jpg" alt="" className="cat-img" />
+              <img src="img/slack.svg" alt="" className="cat-img" />
             </div>
 
             <div className="category" >
-              <img src="img/twilio-logo.png" alt="" className="cat-img" />
+              <img src="img/twilio.svg" alt="" className="cat-img" />
             </div>
             <div className="category">
-              <img src="img/slack.jpg" alt="" className="cat-img" />
+              <img src="img/slack.svg" alt="" className="cat-img" />
             </div>
             <div className="category">
-              <img src="img/twilio-logo.png" alt="" className="cat-img" />
+              <img src="img/sendgrid.svg" alt="" className="cat-img" />
             </div>
             <div className="category">
-              <img src="img/zoom.png" alt="" className="cat-img" />
+              <img src="img/zoom.svg" alt="" className="cat-img" />
             </div>
             <div className="category">
-              <img src="img/SendGrid.png" alt="" className="cat-img" />
+              <img src="img/sendgrid.svg" alt="" className="cat-img" />
             </div>
             <div className="category">
-              <img src="img/slack.jpg" alt="" className="cat-img" />
+              <img src="img/slack.svg" alt="" className="cat-img" />
             </div>
             <div className="category">
-              <img src="img/microsoft.jpg" alt="" className="cat-img" />
+              <img src="img/ms.svg" alt="" className="cat-img" />
             </div>
             <div className="category">
-              <img src="img/Shopify.png" alt="" className="cat-img shopify" />
+              <img src="img/slack.svg" alt="" className="cat-img " />
             </div>
             <div className="category">
-              <img src="img/zoom.png" alt="" className="cat-img " />
+              <img src="img/zoom.svg" alt="" className="cat-img " />
             </div>
           </div>
         </section>
@@ -270,8 +274,13 @@ function App() {
             <div className="talktoexpert">
               <h1 className="expert-heading">Talk to an expert</h1>
               <p className="expert-desc">Let’s discuss your project</p>
+              <div className="expert-btn">
               <a href="#" class="btn-hero btn--full margin-right-sm">Get started now</a >
-              <a href="#" class="btn-hero btn--outline">Get in touch with us<strong className="arrow">&rarr;</strong></a>
+              <div className="ex-btn">
+              <a href="#" class="btn-hero btn--outline">Get in touch with us</a>
+              <img className="arrow-img" src="./img/Arrow forward.svg" alt="" />
+              </div>
+              </div>
             </div>
 
           </div>
@@ -291,7 +300,7 @@ function App() {
         </nav>
 
         <nav class="nav-col middle-grid">
-          <h3 class="footer-heading">Online in One Line</h3>
+          <p class="footer-heading">Online in One Line</p>
         </nav>
 
         <div class="logo-col last-grid">
@@ -321,7 +330,7 @@ function App() {
           </ul>
 
           <a href="#" class="footer-logo">
-            <img class="logo" alt="ngrok logo" src="img/ngrok.png" />
+            <img class="logo" alt="ngrok logo" src="img/ngrok.svg" />
           </a>
         </div>
 
