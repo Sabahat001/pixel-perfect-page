@@ -1,4 +1,3 @@
-// src/LogoSlider.js
 import React, { useEffect, useRef } from 'react';
 
 const LogoSlider = () => {

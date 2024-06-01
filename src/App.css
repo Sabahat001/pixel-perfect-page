@@ -125,6 +125,7 @@ p, span {
 
 .section-hero {
   background-color: #fdf2e9;
+  margin: 0 auto;
 }
 
 .hero {
@@ -231,6 +232,7 @@ span {
   background-color: #F6F7F9;
   /* padding: 6.4rem 3rem; */
   padding-top: 84.58px;
+  margin: 0 auto;
 }
 .developer-section{
   /* padding-top: 84.58px; */
@@ -351,6 +353,7 @@ span {
   /* padding: 120px 0 3.71px 144px ; */
   /* padding: 9.6rem 3rem; */
   padding-top: 120px;
+  margin: 0 auto;
 }
 .customer-grid{
 display: grid;
@@ -485,6 +488,7 @@ margin-bottom: 43px;
   background-color: #F6F7F9;
   /* padding: 6.4rem 3rem; */
   padding-top: 84.58px;
+  margin: 0 auto;
 }
 
 .categories {
@@ -525,7 +529,9 @@ margin-bottom: 43px;
   margin-top: 10px;
   text-align: center;
 } */
-
+.experts{
+  margin: 0 auto;
+}
 .expert {
   text-align: center;
   /* margin: 9.6rem 0; */
@@ -571,6 +577,7 @@ margin-bottom: 43px;
   border-top: 1px solid #eee;
   background-color: hsl(240, 22%, 19%);
   line-height: 1.6;
+  margin: 0 auto;
 }
 
 .grid--footer {
