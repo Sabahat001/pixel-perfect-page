@@ -128,7 +128,7 @@ function App() {
           <div className="customer">
             <div className="image-container">
               <img
-                src="img/p1.svg"
+                src="img/p1.webp"
                 class="customer-img"
                 alt="Avocado Salad"
               />
@@ -148,7 +148,7 @@ function App() {
           <div className="customer">
             <div className="image-container">
               <img
-                src="img/p2.svg"
+                src="img/p2.webp"
                 class="customer-img"
                 alt="Avocado Salad"
               />
@@ -168,7 +168,7 @@ function App() {
           <div className="customer">
             <div className="image-container">
               <img
-                src="img/p3.svg"
+                src="img/p3.webp"
                 class="customer-img"
                 alt="Avocado Salad"
               />
@@ -335,7 +335,7 @@ function App() {
           </div>
 
         </div>
-        <div className="copyright">&copy; ngrok 2022</div>
+        <div className="copyright">&copy; NGROK 2022</div>
       </footer>
 
 
