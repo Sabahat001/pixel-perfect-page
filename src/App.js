@@ -175,7 +175,7 @@ function App() {
             </div>
             <div class="customer-content">
               <div class="customer-tags">
-                <h3>HENNGE extends Zero Trust access to on-prem systems�with ngrok</h3>
+                <h3>HENNGE extends Zero Trust access to on-prem systems with ngrok</h3>
               </div>
               <p class="customer-title para-3">HENNGE adds SSO and MFA to on-prem apps such as Oracle, IBM, and SAP with the best time to value.</p>
             </div>
